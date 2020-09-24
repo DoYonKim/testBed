@@ -14,3 +14,12 @@
   * React
 * Back
   * Node.Js
+
+## 실행방법
+
+```
+npm install
+npm start
+```
+
+* http://localhost:3000/
