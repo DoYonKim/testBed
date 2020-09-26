@@ -16,15 +16,9 @@ app.set('view engine','handlebars');
   
 app.set('port',process.env.PORT || 3000);
 
+//Static 미들웨어-정적 자원을 전송하는 역할
+app.use(express.static('../' +__dirname + '/public'));
 
-//라우팅
-// app.get('/', (req: express.Request, res: express.Response) => {
-//   res.send('let\'s start this winealmot project');
-// });
-
-// app.listen(3000, () => {
-//   console.log('Example app listening on port 3000!');
-// });
 app.get('/',function(req,res){
   res.render('home');
 });
