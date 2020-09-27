@@ -22,4 +22,4 @@ npm build
 npm start
 ```
 
-* http://localhost:3000/
+* http://localhost:8080/
