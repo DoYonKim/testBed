@@ -18,7 +18,7 @@
 ## 실행방법
 
 ```
-npm install
+npm build
 npm start
 ```
 
