@@ -33,6 +33,7 @@ class Counter extends React.Component<CounterProps, CounterState> {
             <React.Fragment>
                 <h1>{name} counter</h1>
                 <div>count value: {count}</div>
+                <img src = "../public/img/logo.png"></img>
             </React.Fragment>
         )
     }
