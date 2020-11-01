@@ -1,5 +1,5 @@
 import * as React from "react"
 import * as ReactDOM from "react-dom"
-import Counter from "./component/Counter"
+import Main from "./component/Main"
 
-ReactDOM.render(<Counter name="Wine알못" />, document.getElementById("app"))
+ReactDOM.render(<Main/>, document.getElementById("app"))
