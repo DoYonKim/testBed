@@ -1,27 +1,24 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
-import logo from '../../../public/img/logo.png';
+import LogoContainer from "./LogoContainer";
+import DayScrollContainer from "./DayScrollContainer"
 
 class UpperContainer extends Component {
     render() {
         return (
             <UpperMainContainer>
-                <img src= {logo}/>
-                <button>버튼1</button>
-                <button>버튼1</button>
-                <button>버튼1</button>
-                <button>버튼1</button>
-                <button>버튼1</button>
+                <LogoContainer/>
+                <DayScrollContainer/>
             </UpperMainContainer>
         );
     }
 }
 
 const UpperMainContainer = styled.div`
-background-color: green;
 display: flex;
 flex-direction: row;
 height: 20%;
+width: 100%;
 `;
 
 export default UpperContainer;

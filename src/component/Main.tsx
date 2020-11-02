@@ -29,7 +29,6 @@ class Main extends Component {
 const WholeContainer = styled.div`
 display: flex;
 flex-direction: column;
-background-color: blue;
 height: 100vh;
 `;
 
