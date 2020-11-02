@@ -13,6 +13,10 @@ class ContentsListContainer extends Component {
             <ContentsList>
                 <h1 style ={h1Style}>장소 목록</h1>
                 <ContentsListItem locaton = "dd" pics= "dd" comments= "dd"/>
+                <ContentsListItem locaton = "d2323" pics= "3213" comments= "31231"/>
+                <ContentsListItem locaton = "dd" pics= "123123" comments= "d3123d"/>
+                <ContentsListItem locaton = "dd11" pics= "d3222d" comments= "32323dd"/>
+
             </ContentsList>
         );
     }
