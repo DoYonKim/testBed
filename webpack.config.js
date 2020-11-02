@@ -27,6 +27,16 @@ module.exports = {
       rules: [
         // .ts나 .tsx 확장자를 ts-loader가 트랜스파일
         { test: /\.tsx?$/, loader: "ts-loader" },
+        //img 검사
+        {
+          test: [/\.bmp$/, /\.gif$/, /\.jpe?g$/, /\.png$/],
+          loader: "url-loader",
+          options: {
+            limit: 100000,
+            outputPath: "static/img",
+            name: "[name].[hash:8].[ext]",
+          }
+        },
       ],
     },
   }
