@@ -6,27 +6,13 @@ const h1Style = {
     margin: "0 auto",
 }
 
+
 class ContentsListContainer extends Component {
     render() {
         return (
             <ContentsList>
                 <h1 style ={h1Style}>장소 목록</h1>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
-                <ContentsListItem/>
+                <ContentsListItem locaton = "dd" pics= "dd" comments= "dd"/>
             </ContentsList>
         );
     }

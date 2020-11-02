@@ -1,13 +1,29 @@
-import React, { Component } from 'react';
+import React from 'react';
 import styled from "styled-components";
 
-class ContentsListItem extends Component {
+interface itemProps {
+    
+    locaton: string,
+    pics: string,
+    comments: string,
+}
+
+interface itemState {}
+
+
+class ContentsListItem extends React.Component<itemProps, itemState> {
+
     render() {
+
+        const location = this.props.locaton;
+        const pics = this.props.pics;
+        const comments = this.props.comments;
+
         return (
             <Item>
-                <p>장소</p>
-                <p>사진</p>
-                <p>별점</p>
+                <p>{location}</p>
+                <p>{pics}</p>
+                <p>{comments}</p>
             </Item>
         );
     }
