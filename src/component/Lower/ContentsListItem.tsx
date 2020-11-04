@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-
+import Map03 from './CardItem/Map03';
 interface itemProps {
     
     locaton: string,
@@ -24,6 +24,7 @@ class ContentsListItem extends React.Component<itemProps, itemState> {
                 <p>{location}</p>
                 <p>{pics}</p>
                 <p>{comments}</p>
+                <Map03 locatonID = "25285071"/>
             </Item>
         );
     }
@@ -36,6 +37,9 @@ const Item = styled.div`
     text-align: center;
     border-radius: 5px;
     background: #4584b1;
+
+    display: flex;
+    flex-direction: row;
 `;
 
 export default ContentsListItem;
