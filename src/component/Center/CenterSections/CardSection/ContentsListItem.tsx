@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from "styled-components";
-import Map03 from './CardItem/Map03';
+import Map03 from './CardComponents/Map03';
 interface itemProps {
     
     locaton: string,

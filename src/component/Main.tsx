@@ -5,8 +5,8 @@ import Counter from './Counter'
 import LeftMenuBar from './LeftMenuBar'
 import Map from './Map'
 
-import UpperContainer from './Upper/UpperContainer'
-import LowerContainer from './Lower/LowerContainer'
+import CenterMainContainer from './Center/CenterMainContainer'
+import LeftMainContainer from './Left/LeftMainContainer'
 
 class Main extends Component {
     render() {
@@ -19,8 +19,8 @@ class Main extends Component {
                 <h3>카운터 프로그램 종료</h3>
                 <Map/>
                 <h3>지도</h3> */}
-                <UpperContainer/>
-                <LowerContainer/>
+                <LeftMainContainer/>
+                <CenterMainContainer/>
             </WholeContainer>
         );
     }
@@ -28,7 +28,7 @@ class Main extends Component {
 
 const WholeContainer = styled.div`
 display: flex;
-flex-direction: column;
+flex-direction: row;
 height: 100vh;
 `;
 

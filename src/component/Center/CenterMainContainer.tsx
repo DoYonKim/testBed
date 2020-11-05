@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
-import LogoContainer from "./LogoContainer";
-import DayScrollContainer from "./DayScrollContainer"
+
+import DayScrollContainer from './CenterSections/SelectDaySection/DayScrollContainer';
+import ContentsListContainer from './CenterSections/CardSection/ContentsListContainer';
 
 class UpperContainer extends Component {
     render() {
         return (
             <UpperMainContainer>
-                <LogoContainer/>
                 <DayScrollContainer/>
+                <ContentsListContainer/>
             </UpperMainContainer>
         );
     }
@@ -16,8 +17,8 @@ class UpperContainer extends Component {
 
 const UpperMainContainer = styled.div`
 display: flex;
-flex-direction: row;
-height: 20%;
+flex-direction: column;
+height: 100%;
 width: 100%;
 `;
 

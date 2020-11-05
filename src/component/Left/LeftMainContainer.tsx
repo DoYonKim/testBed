@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import styled from "styled-components";
 
-import SelctorContainer from './SelectorContainer'
-import ContentsListContainer from './ContentsListContainer'
+import LogoContainer from './LeftSections/LogoSection/LogoContainer'
+import CardTypeToggleContainer from './LeftSections/ToggleSection/CardTypeToggleContainer'
 
 class LowerContainer extends Component {
     render() {
         return (
             <LowerMainContainer>
-                <SelctorContainer/>
-                <ContentsListContainer/>
+                <LogoContainer/>
+                <CardTypeToggleContainer/>
             </LowerMainContainer>
         );
     }
@@ -18,8 +18,8 @@ class LowerContainer extends Component {
 const LowerMainContainer = styled.div`
 background-color: red;
 display: flex;
-flex-direction: row;
-width: 100%;
-height: 80%;
+flex-direction: column;
+width: 25%;
+height: 100%;
 `;
 export default LowerContainer;
