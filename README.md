@@ -29,3 +29,8 @@ yarn start
 * https://jijong.github.io/2017-03-28/fileloader/
 * https://velog.io/@jhj46456/Typescript-React-%EA%B0%9C%EB%B0%9C-%ED%99%98%EA%B2%BD-%EC%A7%81%EC%A0%91-%EB%A7%8C%EB%93%A4%EA%B8%B0#file-loader--url-loader-error
 * https://flamingotiger.github.io/frontend/DevEnv/webpack-image/
+
+- 서버 설정 
+* https://hello-bryan.tistory.com/121
+- 서버 프록시 설정
+* https://webpack.js.org/configuration/

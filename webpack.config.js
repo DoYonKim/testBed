@@ -22,6 +22,13 @@ module.exports = {
       // 파일 확장자 처리
       extensions: [".ts", ".tsx", ".js"],
     },
+
+    devServer: {
+      proxy: { // proxy URLs to backend development server
+        '/api': 'http://localhost:3001'
+      },
+    },
+  
   
     module: {
       rules: [
