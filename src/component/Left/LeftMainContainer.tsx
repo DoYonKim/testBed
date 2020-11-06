@@ -16,7 +16,6 @@ class LowerContainer extends Component {
 }
 
 const LowerMainContainer = styled.div`
-background-color: red;
 display: flex;
 flex-direction: column;
 width: 25%;

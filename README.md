@@ -17,8 +17,8 @@
 ## 실행방법
 
 ```
-npm build
-npm start
+yarn build
+yarn start
 ```
 
 * http://localhost:8080/

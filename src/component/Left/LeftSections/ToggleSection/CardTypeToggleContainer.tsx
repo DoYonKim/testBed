@@ -19,6 +19,7 @@ const SelectorList = styled.div`
 background-color: red;
 display: flex;
 flex-direction: column;
-width: 30%;
+width: 100%;
+height: 100%;
 `;
 export default SelectorContainer;
