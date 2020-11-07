@@ -1,10 +1,12 @@
 # TestBed
 
 
-
 ## 개요
 
 * 무작정 만들어보는 테스트 프로그램
+
+## Figma
+* https://www.figma.com/files/project/15465590/Jeju
 
 ## 개발 스펙
 
@@ -21,7 +23,8 @@ yarn build
 yarn start
 ```
 
-* http://localhost:8080/
+* client: http://localhost:8080/
+* server: http://localhost:8080/
 
 ## 참고한 싸이트
 
