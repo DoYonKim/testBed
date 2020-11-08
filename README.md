@@ -15,7 +15,9 @@
   * React
 * Back
   * Node.Js
-
+* DB
+  * mysql
+  
 ## 실행방법
 
 ```
