@@ -17,7 +17,7 @@
   * Node.Js
 * DB
   * mysql
-  
+
 ## 실행방법
 
 ```
@@ -27,7 +27,7 @@ yarn start
 
 * client: http://localhost:8080/
 * server: http://localhost:8080/
-
+* DB: mysql -h localhost -u root -p
 ## 참고한 싸이트
 
 - 이미지 입력간 웹팩, url loader 설정
