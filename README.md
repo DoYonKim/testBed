@@ -39,3 +39,8 @@ yarn start
 * https://hello-bryan.tistory.com/121
 - 서버 프록시 설정
 * https://webpack.js.org/configuration/
+
+
+- AWS MYSQL 설정
+* 설치 / 인코딩설정
+* https://velog.io/@loakick/AWS-EC2-Ubuntu-18.04%EC%97%90-Mysql-5.7-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0
